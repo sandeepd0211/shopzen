@@ -1,5 +1,6 @@
 import express from "express";
+import App from "./main";
 
-const app = express();
-
-app.listen(5000, () => console.log(`App is running in PORT=5000`));
+const app = App.getInstance();
+const PORT = new Number(process.env.PORT || 5000).valueOf();
+app.startServer(PORT);
