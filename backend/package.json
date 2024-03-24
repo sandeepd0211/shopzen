@@ -1,0 +1,28 @@
+{
+  "name": "shopzen-backend",
+  "version": "1.0.0",
+  "description": "Node.js based Shopping Application",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev:start": "nodemon src/index.ts",
+    "dev:build": "set NODE_ENV=development & tsc",
+    "dev:serve": "node dist/index.js"
+  },
+  "author": "Sandeep D",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.30",
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  },
+  "engines": {
+    "node": ">=20.11.0"
+  }
+}
