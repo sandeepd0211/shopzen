@@ -1,4 +1,4 @@
-# Shopping Application
+# Shopzen
 
 A Node.js based Shopping Application following MVC Pattern with dependency injection
 

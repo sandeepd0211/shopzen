@@ -1,5 +1,5 @@
 {
-  "name": "shopping-app",
+  "name": "shopzen-backend",
   "version": "1.0.0",
   "description": "Node.js based Shopping Application",
   "main": "src/index.ts",
